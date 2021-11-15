@@ -81,27 +81,48 @@ a{
     display: table;
 }
 
-.header{
-    height: 150px;
-    background-color: lightblue;
-    border-radius: 10px 10px 0 0;
+header{
+    margin: 25px 0;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+#subtitle{
+    color: #A9A9A9;
+    margin-top: 5px;
+    font-weight: normal;
 }
 
 main{
-    height: 600px;
     background-color: lightblue;
     width: calc(50% - 20px);
-    margin: 10px;
     float: left;
 }
 
-.side-box{
+.side-box-left, .side-box-right{
     width: 25%;
-    margin-top: 10px;
-    height: 600px;
     background-color: lightblue;
     float: left;
 }
+
+.img-left-cont, .img-right-cont, .img-main-cont{
+    height: 250px;
+    border: 1px solid black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.img-left-cont{
+    background-image: url(img/img-1.jpg);
+}
+ .img-main-cont{
+     background-image: url(img/banner-2.jpg);  
+ }
+
+ .img-right-cont{
+     background-image: url(img/img-3.jpg);
+ }
 
 /* Footer */
 footer{
