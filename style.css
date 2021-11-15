@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1200px;
+    margin: auto;
+    font-family: 'Karla', sans-serif;
+}
+
+/* Header */
+
+#main-header{
+    font-size: 30px;
+    margin: 10px 0;
+    vertical-align: middle;   
+}
+
+#img-logo{
+    width: 150px;
+    height: auto;
+    vertical-align: middle;
+}
+
+/* Nav */
+
+li{
+    display: inline;
+    margin: 10px 5px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.3em;
+    color: #A9A9A9;
+}
+
+/* Main Claim */
+
+#main-claim{
+    height: 300px;
+    background-color: burlywood;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+/* Web-site main contents */
+
+.container{
+    background-color: blue;
+}
+
+.clearfix::after{
+    content:'';
+    clear: both;
+    display: table;
+}
+
+.header{
+    height: 150px;
+    background-color: lightblue;
+    border-radius: 10px 10px 0 0;
+}
+
+main{
+    height: 600px;
+    background-color: lightblue;
+    width: calc(50% - 20px);
+    margin: 10px;
+    float: left;
+}
+
+.side-box{
+    width: 25%;
+    margin-top: 10px;
+    height: 600px;
+    background-color: lightblue;
+    float: left;
+}
+
+/* Footer */
+footer{
+    height: 80px;
+    background-color: purple;
+    margin: 20px 0;
+    border-radius: 10px;
+}
